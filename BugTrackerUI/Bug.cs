@@ -15,10 +15,11 @@ namespace BugTrackerUI
 
         [Required]
         [MinLength(10)]
-        [Range(1,5)]
+ 
         public string Description { get; set; }
 
         [Required]
+        [Range(1, 5)]
         public int Priority { get; set; }
     }
 }
